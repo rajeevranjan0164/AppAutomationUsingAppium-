@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63789" started-at="2018-08-20T17:54:13Z" finished-at="2018-08-20T17:55:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63789" started-at="2018-08-20T17:54:13Z" finished-at="2018-08-20T17:55:17Z">
+      <class name="com.qa.TestScript.GeneralLoginTestScript">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="setUp" is-config="true" duration-ms="39737" started-at="2018-08-20T17:54:13Z" finished-at="2018-08-20T17:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="without_Enter_Email_Id_Verify()[pri:1, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="without_Enter_Email_Id_Verify" duration-ms="12014" started-at="2018-08-20T17:54:53Z" description="No need to Enter any Email id and click Continue Login" finished-at="2018-08-20T17:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- without_Enter_Email_Id_Verify -->
+        <test-method status="PASS" signature="valid_Enter_Email_Id_Verify()[pri:2, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="valid_Enter_Email_Id_Verify" duration-ms="4486" started-at="2018-08-20T17:55:05Z" description="Enter valid Email id and click Continue Login" finished-at="2018-08-20T17:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_Enter_Email_Id_Verify -->
+        <test-method status="PASS" signature="Without_Enter_name()[pri:3, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="Without_Enter_name" duration-ms="860" started-at="2018-08-20T17:55:10Z" description="I have not enter any name only email id is there" finished-at="2018-08-20T17:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Without_Enter_name -->
+        <test-method status="PASS" signature="Enter_name()[pri:4, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="Enter_name" duration-ms="2306" started-at="2018-08-20T17:55:11Z" description=" enter  name " finished-at="2018-08-20T17:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_name -->
+        <test-method status="PASS" signature="phone_number()[pri:4, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="phone_number" duration-ms="2004" started-at="2018-08-20T17:55:13Z" description=" enter  phone number" finished-at="2018-08-20T17:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phone_number -->
+        <test-method status="PASS" signature="lessw_Word_password()[pri:5, instance:com.qa.TestScript.GeneralLoginTestScript@578486a3]" name="lessw_Word_password" duration-ms="2290" started-at="2018-08-20T17:55:15Z" description=" enter less word password" finished-at="2018-08-20T17:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lessw_Word_password -->
+      </class> <!-- com.qa.TestScript.GeneralLoginTestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

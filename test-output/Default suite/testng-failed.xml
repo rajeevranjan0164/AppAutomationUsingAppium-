@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.TestScript.GeneralLoginTestScript">
+        <methods>
+          <include name="setUp"/>
+          <include name="without_Enter_Email_Id_Verify"/>
+          <include name="lessw_Word_password"/>
+          <include name="Without_Enter_name"/>
+          <include name="phone_number"/>
+          <include name="Enter_name"/>
+          <include name="valid_Enter_Email_Id_Verify"/>
+        </methods>
+      </class> <!-- com.qa.TestScript.GeneralLoginTestScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
