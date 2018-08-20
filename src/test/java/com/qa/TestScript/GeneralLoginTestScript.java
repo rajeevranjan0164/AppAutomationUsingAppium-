@@ -42,54 +42,65 @@ public class GeneralLoginTestScript extends Base {
 		navigationDrower.click_login_create_account();
 		signUpOrLoginPage.clickContinueLogin();
 		String exceptedErrorMessage = signUpOrLoginPage.getinputErrorEmailMessage();
-		Assert.assertEquals(DataStore.Actual_error_Email_id, exceptedErrorMessage);
+		Assert.assertEquals(DataStore.Actual_error_Email_id, exceptedErrorMessage,
+				"Eamil error message is not displaying");
 	}
 
 	@Test(priority = 2, description = "Enter valid Email id and click Continue Login")
 	public void valid_Enter_Email_Id_Verify() {
-		//signUpOrLoginPage.email.clear();
-		//driver.hideKeyboard();
-
+		// signUpOrLoginPage.email.clear();
+		// driver.hideKeyboard();
 
 		signUpOrLoginPage.email.sendKeys(DataStore.mail_id_valid);
 		signUpOrLoginPage.clickContinueLogin();
 		String nextPageMessage = signUpOrLoginPage.text_created_account.getText();
 		Assert.assertTrue(nextPageMessage.contains(DataStore.register_page_data_verfiy));
 		signUpOrLoginPage.email.clear();
-		
+
 	}
-	
-	@Test(priority = 3, description = "I have not enter any name only email id is there")
+
+	@Test(priority = 3, description = " Without enter any name only email id is there")
 	public void Without_Enter_name() {
 		signUpOrLoginPage.click_Create_account_button();
 		String nextPageMessage = signUpOrLoginPage.getinputErrorEmailMessage();
-		Assert.assertEquals(DataStore.Acutual_error_name, nextPageMessage);
+		Assert.assertEquals(DataStore.Acutual_error_name, nextPageMessage, "name error message is not getting");
 	}
-	
-	@Test(priority = 4, description = " enter  name ")
+
+	@Test(priority = 4, description = "Enter name in the field ")
 	public void Enter_name() {
 		signUpOrLoginPage.fullName.sendKeys(DataStore.name);
 		signUpOrLoginPage.click_Create_account_button();
 		String nextPageMessage = signUpOrLoginPage.getinputErrorEmailMessage();
-		Assert.assertEquals(DataStore.Actual_error_phone_number, nextPageMessage);
-		
+		Assert.assertEquals(DataStore.Actual_error_phone_number, nextPageMessage, "phone error message is not getting");
+
 	}
-	
-	@Test(priority = 4, description = " enter  phone number")
+
+	@Test(priority = 5, description = " Enter phone number in the field")
 	public void phone_number() {
 		signUpOrLoginPage.mobileNumber.sendKeys(DataStore.number);
 		signUpOrLoginPage.click_Create_account_button();
 		String nextPageMessage = signUpOrLoginPage.getinputErrorEmailMessage();
-		Assert.assertEquals(DataStore.Actual_error_without_enter_password, nextPageMessage);
-		
+		Assert.assertEquals(DataStore.Actual_error_without_enter_password, nextPageMessage,
+				"password incorrect is not getting");
+
 	}
-	
-	@Test(priority = 5, description = " enter less word password")
-	public void lessw_Word_password() {
+
+	@Test(priority = 6, description = "Enter less word password in the field")
+	public void less_Word_Password() {
 		signUpOrLoginPage.password.sendKeys(DataStore.less_password);
 		signUpOrLoginPage.click_Create_account_button();
 		String nextPageMessage = signUpOrLoginPage.getinputErrorEmailMessage();
-		Assert.assertEquals(DataStore.Actual_error_with_enter_password, nextPageMessage);
-		
+		Assert.assertEquals(DataStore.Actual_error_with_enter_password, nextPageMessage,
+				"Enter 6 letter password is not showing");
+
+	}
+
+	@Test(priority = 7, description = "verfiy home page")
+	public void full_Word_Password() {
+		signUpOrLoginPage.password.sendKeys(DataStore.Full_password);
+		signUpOrLoginPage.click_Create_account_button();
+		String expected = mainIndexPage.getMovenText();
+		Assert.assertEquals(DataStore.womenText, expected);
+
 	}
 }

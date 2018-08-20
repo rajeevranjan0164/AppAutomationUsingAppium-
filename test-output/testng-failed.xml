@@ -6,8 +6,9 @@
       <class name="com.qa.TestScript.GeneralLoginTestScript">
         <methods>
           <include name="setUp"/>
+          <include name="less_Word_Password"/>
           <include name="without_Enter_Email_Id_Verify"/>
-          <include name="lessw_Word_password"/>
+          <include name="full_Word_Password"/>
           <include name="Without_Enter_name"/>
           <include name="phone_number"/>
           <include name="Enter_name"/>

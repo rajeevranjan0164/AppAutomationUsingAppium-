@@ -13,14 +13,13 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Base {
-	
+
 	public static AndroidDriver driver;
-	
-	public static AndroidDriver<AndroidElement> Capability() throws MalformedURLException
-	{
-		
-		File app = new File("C:\\Users\\Rajeev Ranjan\\Downloads\\Zilingo Shopping_v1.7.1_apkpure.com.apk");
-		
+
+	public static AndroidDriver<AndroidElement> Capability() throws MalformedURLException {
+
+		File appDir = new File(System.getProperty("user.dir"), "/apps");
+        File app = new File(appDir, "Zilingo Shopping_v1.7.1_apkpure.com.apk");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
@@ -32,9 +31,7 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		return driver;
-		
 
-		
 	}
 
 }
