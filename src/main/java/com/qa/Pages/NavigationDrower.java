@@ -1,5 +1,6 @@
 package com.qa.Pages;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -16,8 +17,8 @@ public class NavigationDrower {
 
 	}
 
-	@AndroidFindBy(xpath = "//android.widget.TextView[@text='Login/Create Account']")
-	public AndroidElement login_create_account;
+	@AndroidFindBy(id = "com.zilingo.users:id/chevron")
+	public WebElement login_create_account;
 
 	public void click_login_create_account() {
 		login_create_account.click();

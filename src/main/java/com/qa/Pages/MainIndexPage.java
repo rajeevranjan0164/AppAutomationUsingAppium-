@@ -29,9 +29,9 @@ public class MainIndexPage {
 	}
 
 	@AndroidFindBy(xpath = "//android.widget.TextView[@text='WOMEN']")
-	public AndroidElement women;
+	public WebElement women;
 
-	public String getMovenText() {
+	public String getWovenText() {
 		return women.getText();
 
 	}

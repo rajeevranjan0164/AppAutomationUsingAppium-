@@ -20,8 +20,8 @@ public class SignUpOrLoginPage {
 		dataStore = new DataStore();
 	}
 
-	@AndroidFindBy(id = "com.zilingo.users:id/value")
-	public AndroidElement email;
+	@AndroidFindBy(id = "com.zilingo.users:id/textView")
+	public WebElement email;
 
 	public void sendEmailId() {
 		email.sendKeys(dataStore.mail_id_valid);
@@ -34,21 +34,21 @@ public class SignUpOrLoginPage {
 		continueLogin.click();
 	}
 
-	@AndroidFindBy(id = "com.zilingo.users:id/textinput_error")
+	@AndroidFindBy(id = "com.zilingo.users:id/error_message")
 	public AndroidElement inputErrorEmailMessage;
 
 	public String getinputErrorEmailMessage() {
 		return inputErrorEmailMessage.getText();
 	}
 
-	@AndroidFindBy(xpath = "//TextInputLayout[@index='1']/android.widget.FrameLayout[@index='0']/android.widget.EditText[@index='0']")
+	@AndroidFindBy(xpath = "//android.widget.LinearLayout[@index='1']/android.widget.RelativeLayout[@index='0']/android.widget.LinearLayout[@index='0']/android.widget.FrameLayout[@index='0']/android.widget.EditText[@index='0']")
 	public AndroidElement fullName;
 
 	public String getFullName() {
 		return fullName.getText();
 	}
 
-	@AndroidFindBy(xpath = "//TextInputLayout[@index='2']/android.widget.FrameLayout[@index='0']/android.widget.EditText[@index='0']")
+	@AndroidFindBy(xpath = "//android.widget.LinearLayout[@index='2']/android.widget.RelativeLayout[@index='0']/android.widget.LinearLayout[@index='0']/android.widget.FrameLayout[@index='0']/android.widget.EditText[@index='0']")
 	public AndroidElement mobileNumber;
 
 	public String getMobileNumber() {
@@ -56,7 +56,7 @@ public class SignUpOrLoginPage {
 		return mobileNumber.getText();
 	}
 
-	@AndroidFindBy(xpath = "//TextInputLayout[@index='3']/android.widget.FrameLayout[@index='0']/android.widget.EditText[@index='0']")
+	@AndroidFindBy(xpath = "//android.widget.LinearLayout[@index='3']/android.widget.RelativeLayout[@index='0']/android.widget.LinearLayout[@index='0']/android.widget.FrameLayout[@index='0']/android.widget.EditText[@index='0']")
 	public AndroidElement password;
 
 	public String getPassword() {
@@ -77,6 +77,4 @@ public class SignUpOrLoginPage {
 	}
 	
 	
-	
-
 }

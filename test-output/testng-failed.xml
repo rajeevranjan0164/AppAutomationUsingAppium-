@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.TestScript.GeneralLoginTestScript">
+      <class name="com.qa.TestScript.PaymentCheckOut">
         <methods>
           <include name="setUp"/>
-          <include name="less_Word_Password"/>
-          <include name="without_Enter_Email_Id_Verify"/>
-          <include name="full_Word_Password"/>
-          <include name="Without_Enter_name"/>
-          <include name="phone_number"/>
-          <include name="Enter_name"/>
-          <include name="valid_Enter_Email_Id_Verify"/>
+          <include name="bookProductPaymentCreditCard"/>
         </methods>
-      </class> <!-- com.qa.TestScript.GeneralLoginTestScript -->
+      </class> <!-- com.qa.TestScript.PaymentCheckOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
