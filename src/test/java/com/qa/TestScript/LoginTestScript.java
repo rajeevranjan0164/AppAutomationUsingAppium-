@@ -35,6 +35,7 @@ public class LoginTestScript extends Base {
 		signUpOrLoginPage = new SignUpOrLoginPage(driver);
 		loginPage = new LoginPage(driver);
 
+
 	}
 
 	@Test(priority = 1, description = "No need to Enter any Email id and click Continue Login")
