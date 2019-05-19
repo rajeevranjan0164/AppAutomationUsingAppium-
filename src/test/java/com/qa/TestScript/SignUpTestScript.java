@@ -2,11 +2,11 @@ package com.qa.TestScript;
 
 import java.net.MalformedURLException;
 
+import com.qa.Base.Base;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.qa.Base.Base;
 import com.qa.Pages.MainIndexPage;
 import com.qa.Pages.NavigationDrower;
 import com.qa.Pages.SelectRegionPage;

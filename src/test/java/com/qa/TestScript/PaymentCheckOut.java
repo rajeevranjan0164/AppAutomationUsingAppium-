@@ -2,13 +2,11 @@ package com.qa.TestScript;
 
 import java.net.MalformedURLException;
 import java.time.Duration;
-import java.util.List;
 
-import org.openqa.selenium.WebDriver;
+import com.qa.Base.Base;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.qa.Base.Base;
 import com.qa.Pages.AddressPage;
 import com.qa.Pages.LoginPage;
 import com.qa.Pages.MainIndexPage;
@@ -27,10 +25,8 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.TouchAction;
-import static io.appium.java_client.touch.TapOptions.tapOptions;
-import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
+
 import static java.time.Duration.ofSeconds;
 import static io.appium.java_client.touch.offset.ElementOption.element;
 
