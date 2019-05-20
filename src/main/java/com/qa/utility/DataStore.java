@@ -11,7 +11,7 @@ public class DataStore {
 	public static String less_password = "rajiv";
 	public static String Full_password = "rajeev1234";
 	public static String womenText = "WOMEN";
-
+	public static String womenemail_id="abc@in.com";
 
 	// errorMessage
 	public static String Actual_error_Email_id = "Email ID is not valid";
