@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559caad8-1c2f-4f1c-9afb-47189ce8eb07" name="Default Changelist" comment="" />
+    <list default="true" id="559caad8-1c2f-4f1c-9afb-47189ce8eb07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/elements/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/elements/ElementBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/elements/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/elements/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/TestScript/PaymentCheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/TestScript/PaymentCheckOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Base/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Pages/PaymentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Pages/PaymentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Pages/ReviewAndPlaceOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Pages/ReviewAndPlaceOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Pages/SelectSizePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Pages/SelectSizePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Pages/ShoppingCartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Pages/WomenFeaturedBrandPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/Pages/WomenFeaturedBrandPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/utility/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/TestScript/LoginTestScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/TestScript/LoginTestScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/TestScript/PaymentCheckOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/TestScript/PaymentCheckOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/TestScript/SignUpTestScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/TestScript/SignUpTestScript.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/PaymentPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="156">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -23,99 +44,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utility/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="277">
+              <caret line="242" column="54" lean-forward="true" selection-start-line="242" selection-start-column="54" selection-end-line="242" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Button.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/ElementBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="67" column="98" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Label.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/TextBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utility/DataStore.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Base.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/Environment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/ReviewAndPlaceOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/SelectSizePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/ShoppingCartPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/WomenFeaturedBrandPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="450">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,23 +127,29 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Base/Base.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/TestScript/LoginTestScript.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/TestScript/PaymentCheckOut.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/PaymentPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/ReviewAndPlaceOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/SelectSizePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/ShoppingCartPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/WomenFeaturedBrandPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/utility/Utility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/utility/DataStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Base/Elements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Base/ElementBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Base/Button.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Base/Label.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Base/TextBox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/TestScript/PaymentCheckOut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/elements/TextBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/utility/Utility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="831" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +203,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZilingoShopping" type="b2602c69:ProjectViewProjectNode" />
@@ -203,18 +212,38 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZilingoShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppAutomationUsingAppium-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZilingoShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppAutomationUsingAppium-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZilingoShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppAutomationUsingAppium-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestScript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558368072720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559366051638" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -225,6 +254,7 @@
       <recent name="com.qa.Base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/qa/elements" />
       <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -241,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SignUpTestScript.without_Enter_Email_Id_Verify">
     <configuration name="LoginTestScript.without_Enter_Email_Id_Verify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ZilingoShopping" />
       <extension name="coverage">
@@ -260,8 +290,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ZilingoShopping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.TestScript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.TestScript" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.TestScript.SignUpTestScript" />
+      <option name="METHOD_NAME" value="without_Enter_Email_Id_Verify" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignUpTestScript.without_Enter_Email_Id_Verify" />
         <item itemvalue="TestNG.LoginTestScript.without_Enter_Email_Id_Verify" />
       </list>
     </recent_temporary>
@@ -280,23 +329,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTestScript_without_Enter_Email_Id_Verify - 2019.05.19 at 17h 33m 51s.xml">
-      <configuration name="LoginTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 02m 01s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTestScript_without_Enter_Email_Id_Verify - 2019.05.19 at 17h 37m 05s.xml">
-      <configuration name="LoginTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 08m 27s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTestScript_without_Enter_Email_Id_Verify - 2019.05.19 at 17h 47m 40s.xml">
-      <configuration name="LoginTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 08m 36s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTestScript_without_Enter_Email_Id_Verify - 2019.05.19 at 17h 50m 05s.xml">
-      <configuration name="LoginTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 10m 56s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 12m 01s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 13m 13s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 14m 16s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 41m 47s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 43m 41s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTestScript_without_Enter_Email_Id_Verify - 2019.06.01 at 10h 45m 24s.xml">
+      <configuration name="SignUpTestScript.without_Enter_Email_Id_Verify" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15593705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,16 +371,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32700136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32924962" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,48 +392,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/PaymentCheckOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/MainIndexPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/PaymentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/LoginTestScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="576">
+          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -408,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/SelectSizePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/ShoppingCartPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -438,26 +460,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utility/DataStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/AddressPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/LoginTestScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/PaymentCheckOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/SelectSizePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/elements/Label.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/elements/TextBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/elements/ElementBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/elements/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Pages/PaymentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/ElementBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="67" column="98" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Base/TextBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/utility/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="277">
+          <caret line="242" column="54" lean-forward="true" selection-start-line="242" selection-start-column="54" selection-end-line="242" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/TestScript/SignUpTestScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
         </state>
       </provider>
     </entry>

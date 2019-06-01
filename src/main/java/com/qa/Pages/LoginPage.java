@@ -23,6 +23,8 @@ public class LoginPage extends Base {
 	
 	@AndroidFindBy(xpath="//android.widget.Button[@text='LOGIN']")
 	public WebElement login_button;
+
+
 	
 	public void click_login_button()
 	{

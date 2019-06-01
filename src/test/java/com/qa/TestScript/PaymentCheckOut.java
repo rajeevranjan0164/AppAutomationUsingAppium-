@@ -56,7 +56,7 @@ public class PaymentCheckOut extends Base {
 		signUpOrLoginPage = new SignUpOrLoginPage(driver);
 		loginPage = new LoginPage(driver);
 		womenFeaturedBrandPage = new WomenFeaturedBrandPage(driver);
-		utility = new Utility();
+		utility = new Utility(driver);
 		t = new TouchAction(driver);
 		shoppingCartPage = new ShoppingCartPage(driver);
 		selectSizePage = new SelectSizePage(driver);
@@ -76,7 +76,7 @@ public class PaymentCheckOut extends Base {
 
 		womenFeaturedBrandPage.zauenoar_click();
 
-		utility.scrollAndClick("*DJ* Floral Printed Tie-Wa...");
+		//utility.scrollAndClick("*DJ* Floral Printed Tie-Wa...");
 		// utility.scrollAndClick("BUY NOW");
 		t.tap(PointOption.point(742, 1938)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000))).perform()
 				.release();
@@ -109,7 +109,7 @@ public class PaymentCheckOut extends Base {
 		paymentPage.year.click();
 		paymentPage.choose_year.click();
 
-		utility.scrollAndClick("Order Total");
+		//utility.scrollAndClick("Order Total");
 
 		paymentPage.cvv_number.sendKeys(DataStore.cvv_number);
 

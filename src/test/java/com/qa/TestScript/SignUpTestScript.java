@@ -2,7 +2,9 @@ package com.qa.TestScript;
 
 import java.net.MalformedURLException;
 
+import com.google.common.collect.ImmutableMap;
 import com.qa.Base.Base;
+import com.qa.utility.Utility;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,6 +18,8 @@ import com.qa.utility.DataStore;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
+import static com.qa.Base.Base.Capability;
+
 public class SignUpTestScript extends Base {
 
 	private static AndroidDriver<AndroidElement> driver;
@@ -23,6 +27,7 @@ public class SignUpTestScript extends Base {
 	MainIndexPage mainIndexPage;
 	NavigationDrower navigationDrower;
 	SignUpOrLoginPage signUpOrLoginPage;
+	Utility utility;
 
 	@BeforeTest
 	public void setUp() throws MalformedURLException {
@@ -31,13 +36,18 @@ public class SignUpTestScript extends Base {
 		mainIndexPage = new MainIndexPage(driver);
 		navigationDrower = new NavigationDrower(driver);
 		signUpOrLoginPage = new SignUpOrLoginPage(driver);
+		utility = new Utility(driver);
 
 	}
 
 	@Test(priority = 1, description = "No need to Enter any Email id and click Continue Login")
-	public void without_Enter_Email_Id_Verify() {
+	public void without_Enter_Email_Id_Verify() throws Exception {
 		driver.findElementByAndroidUIAutomator(
 				"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Singapore\"));").click();
+
+		Thread.sleep(12000);
+		utility.scrollDown();
+		//utility.scrollUp();
 		mainIndexPage.ClickDrowerButton();
 		navigationDrower.click_login_create_account();
 		signUpOrLoginPage.clickContinueLogin();
