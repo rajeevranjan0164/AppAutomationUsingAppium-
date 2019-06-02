@@ -233,8 +233,6 @@ public class Utility extends Base {
 
     }
 
-
-
     public void swipeDown(int howManySwipes) {
         Dimension size = driver.manage().window().getSize();
         // calculate coordinates for vertical swipe
